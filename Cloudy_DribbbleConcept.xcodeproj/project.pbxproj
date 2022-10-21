@@ -11,6 +11,15 @@
 		750BDECF290287FA00C92B53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BDECE290287FA00C92B53 /* ContentView.swift */; };
 		750BDED1290287FB00C92B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750BDED0290287FB00C92B53 /* Assets.xcassets */; };
 		750BDED4290287FB00C92B53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750BDED3290287FB00C92B53 /* Preview Assets.xcassets */; };
+		750BDEDB29028C5600C92B53 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BDEDA29028C5600C92B53 /* Constants.swift */; };
+		750BDEDD29028CCF00C92B53 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BDEDC29028CCF00C92B53 /* OnboardingView.swift */; };
+		750BDEE42902925500C92B53 /* SpaceGrotesk-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 750BDEDF2902925500C92B53 /* SpaceGrotesk-Bold.ttf */; };
+		750BDEE52902925500C92B53 /* SpaceGrotesk-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 750BDEE02902925500C92B53 /* SpaceGrotesk-Light.ttf */; };
+		750BDEE62902925500C92B53 /* SpaceGrotesk-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 750BDEE12902925500C92B53 /* SpaceGrotesk-Medium.ttf */; };
+		750BDEE72902925500C92B53 /* SpaceGrotesk-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 750BDEE22902925500C92B53 /* SpaceGrotesk-Regular.ttf */; };
+		750BDEE82902925500C92B53 /* SpaceGrotesk-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 750BDEE32902925500C92B53 /* SpaceGrotesk-SemiBold.ttf */; };
+		750BDEEB290296F700C92B53 /* SeparatorLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BDEEA290296F600C92B53 /* SeparatorLine.swift */; };
+		750BDEEE2902980E00C92B53 /* ArrowNextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BDEED2902980E00C92B53 /* ArrowNextButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,16 @@
 		750BDECE290287FA00C92B53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		750BDED0290287FB00C92B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		750BDED3290287FB00C92B53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		750BDEDA29028C5600C92B53 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		750BDEDC29028CCF00C92B53 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		750BDEDF2902925500C92B53 /* SpaceGrotesk-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Bold.ttf"; sourceTree = "<group>"; };
+		750BDEE02902925500C92B53 /* SpaceGrotesk-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Light.ttf"; sourceTree = "<group>"; };
+		750BDEE12902925500C92B53 /* SpaceGrotesk-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Medium.ttf"; sourceTree = "<group>"; };
+		750BDEE22902925500C92B53 /* SpaceGrotesk-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Regular.ttf"; sourceTree = "<group>"; };
+		750BDEE32902925500C92B53 /* SpaceGrotesk-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-SemiBold.ttf"; sourceTree = "<group>"; };
+		750BDEE92902930200C92B53 /* Cloudy-DribbbleConcept-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Cloudy-DribbbleConcept-Info.plist"; sourceTree = SOURCE_ROOT; };
+		750BDEEA290296F600C92B53 /* SeparatorLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorLine.swift; sourceTree = "<group>"; };
+		750BDEED2902980E00C92B53 /* ArrowNextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowNextButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +70,16 @@
 		750BDECB290287FA00C92B53 /* Cloudy_DribbbleConcept */ = {
 			isa = PBXGroup;
 			children = (
+				750BDEE92902930200C92B53 /* Cloudy-DribbbleConcept-Info.plist */,
+				750BDEDE2902923000C92B53 /* Fonts */,
 				750BDECC290287FA00C92B53 /* Cloudy_DribbbleConceptApp.swift */,
 				750BDECE290287FA00C92B53 /* ContentView.swift */,
 				750BDED0290287FB00C92B53 /* Assets.xcassets */,
 				750BDED2290287FB00C92B53 /* Preview Content */,
+				750BDEDA29028C5600C92B53 /* Constants.swift */,
+				750BDEEA290296F600C92B53 /* SeparatorLine.swift */,
+				750BDEDC29028CCF00C92B53 /* OnboardingView.swift */,
+				750BDEED2902980E00C92B53 /* ArrowNextButton.swift */,
 			);
 			path = Cloudy_DribbbleConcept;
 			sourceTree = "<group>";
@@ -65,6 +90,18 @@
 				750BDED3290287FB00C92B53 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		750BDEDE2902923000C92B53 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				750BDEDF2902925500C92B53 /* SpaceGrotesk-Bold.ttf */,
+				750BDEE02902925500C92B53 /* SpaceGrotesk-Light.ttf */,
+				750BDEE12902925500C92B53 /* SpaceGrotesk-Medium.ttf */,
+				750BDEE22902925500C92B53 /* SpaceGrotesk-Regular.ttf */,
+				750BDEE32902925500C92B53 /* SpaceGrotesk-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +162,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				750BDEE62902925500C92B53 /* SpaceGrotesk-Medium.ttf in Resources */,
+				750BDEE42902925500C92B53 /* SpaceGrotesk-Bold.ttf in Resources */,
+				750BDEE72902925500C92B53 /* SpaceGrotesk-Regular.ttf in Resources */,
 				750BDED4290287FB00C92B53 /* Preview Assets.xcassets in Resources */,
+				750BDEE52902925500C92B53 /* SpaceGrotesk-Light.ttf in Resources */,
+				750BDEE82902925500C92B53 /* SpaceGrotesk-SemiBold.ttf in Resources */,
 				750BDED1290287FB00C92B53 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				750BDEEE2902980E00C92B53 /* ArrowNextButton.swift in Sources */,
 				750BDECF290287FA00C92B53 /* ContentView.swift in Sources */,
+				750BDEDD29028CCF00C92B53 /* OnboardingView.swift in Sources */,
+				750BDEEB290296F700C92B53 /* SeparatorLine.swift in Sources */,
 				750BDECD290287FA00C92B53 /* Cloudy_DribbbleConceptApp.swift in Sources */,
+				750BDEDB29028C5600C92B53 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +316,8 @@
 				DEVELOPMENT_TEAM = 678L74QEPX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cloudy-DribbbleConcept-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +347,8 @@
 				DEVELOPMENT_TEAM = 678L74QEPX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cloudy-DribbbleConcept-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
