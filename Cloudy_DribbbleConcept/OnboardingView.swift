@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct OnboardingModel {
+struct OnboardingModel: Identifiable, Hashable {
+    let id:              String = "0"
     let backgroundimage: UIImage
     let title:           String
     let subtitle:        String
@@ -30,8 +31,7 @@ final class OnboardingStateModel: ObservableObject {
 struct OnboardingView: View {
     
     @ObservedObject var stateModel: OnboardingStateModel
-    
-    @State var continueButtonTapped: Bool = false
+    @State private  var canNavigate   = false
     
     var body: some View {
         ZStack {
@@ -65,7 +65,11 @@ struct OnboardingView: View {
             
             VStack {
                 Spacer()
-                ArrowNextButton(buttonTapped: $continueButtonTapped)
+                
+                NavigationLink(value: Path.homescreen) {
+                    ArrowNextButton()
+                }
+                
                 Spacer()
                     .frame(height: 36)
             }

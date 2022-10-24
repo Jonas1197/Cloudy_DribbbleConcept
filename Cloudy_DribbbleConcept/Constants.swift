@@ -21,6 +21,11 @@ enum Constants {
         static let arrowRight = "arrow.right"
     }
     
+    //MARK: - UserDefaultsKey
+    enum UserDefaultsKey {
+        static let navigationPath = "navigationPath"
+    }
+    
     //MARK: - Font
     enum Font {
         static let light    = "SpaceGrotesk-Light"

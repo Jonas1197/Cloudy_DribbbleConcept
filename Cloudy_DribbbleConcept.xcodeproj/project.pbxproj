@@ -20,6 +20,8 @@
 		750BDEE82902925500C92B53 /* SpaceGrotesk-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 750BDEE32902925500C92B53 /* SpaceGrotesk-SemiBold.ttf */; };
 		750BDEEB290296F700C92B53 /* SeparatorLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BDEEA290296F600C92B53 /* SeparatorLine.swift */; };
 		750BDEEE2902980E00C92B53 /* ArrowNextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BDEED2902980E00C92B53 /* ArrowNextButton.swift */; };
+		750BDEF129029E8000C92B53 /* CubeRotationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BDEF029029E8000C92B53 /* CubeRotationModifier.swift */; };
+		750BDEF32902A8C700C92B53 /* HomescreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750BDEF22902A8C700C92B53 /* HomescreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		750BDEE92902930200C92B53 /* Cloudy-DribbbleConcept-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Cloudy-DribbbleConcept-Info.plist"; sourceTree = SOURCE_ROOT; };
 		750BDEEA290296F600C92B53 /* SeparatorLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorLine.swift; sourceTree = "<group>"; };
 		750BDEED2902980E00C92B53 /* ArrowNextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowNextButton.swift; sourceTree = "<group>"; };
+		750BDEF029029E8000C92B53 /* CubeRotationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeRotationModifier.swift; sourceTree = "<group>"; };
+		750BDEF22902A8C700C92B53 /* HomescreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomescreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,7 @@
 		750BDECB290287FA00C92B53 /* Cloudy_DribbbleConcept */ = {
 			isa = PBXGroup;
 			children = (
+				750BDEEF29029E7400C92B53 /* Modifiers */,
 				750BDEE92902930200C92B53 /* Cloudy-DribbbleConcept-Info.plist */,
 				750BDEDE2902923000C92B53 /* Fonts */,
 				750BDECC290287FA00C92B53 /* Cloudy_DribbbleConceptApp.swift */,
@@ -80,6 +85,7 @@
 				750BDEEA290296F600C92B53 /* SeparatorLine.swift */,
 				750BDEDC29028CCF00C92B53 /* OnboardingView.swift */,
 				750BDEED2902980E00C92B53 /* ArrowNextButton.swift */,
+				750BDEF22902A8C700C92B53 /* HomescreenView.swift */,
 			);
 			path = Cloudy_DribbbleConcept;
 			sourceTree = "<group>";
@@ -102,6 +108,14 @@
 				750BDEE32902925500C92B53 /* SpaceGrotesk-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		750BDEEF29029E7400C92B53 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				750BDEF029029E8000C92B53 /* CubeRotationModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +194,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				750BDEEE2902980E00C92B53 /* ArrowNextButton.swift in Sources */,
+				750BDEF129029E8000C92B53 /* CubeRotationModifier.swift in Sources */,
 				750BDECF290287FA00C92B53 /* ContentView.swift in Sources */,
+				750BDEF32902A8C700C92B53 /* HomescreenView.swift in Sources */,
 				750BDEDD29028CCF00C92B53 /* OnboardingView.swift in Sources */,
 				750BDEEB290296F700C92B53 /* SeparatorLine.swift in Sources */,
 				750BDECD290287FA00C92B53 /* Cloudy_DribbbleConceptApp.swift in Sources */,
